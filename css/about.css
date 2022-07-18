@@ -1,0 +1,59 @@
+/*Sección About*/
+
+.about {
+    padding: 62px 153px;
+    background-color: var(--color-fondo-azul);
+}
+
+.about__container {
+    width: 700px;
+}
+
+.about__title {
+    font-size: 32px;
+}
+
+.about__paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/*Sección Skills*/
+
+.skills {
+    margin: 64px 100px;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .about {
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about__container {
+        width: 80%;
+        margin-left: 8vw;
+        padding-top: 5vw;
+        padding-bottom: 2vw;
+        height: 75vw;
+    }
+
+    .about__title {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        font-size: 24px;
+    }
+
+    .about__paragraph {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

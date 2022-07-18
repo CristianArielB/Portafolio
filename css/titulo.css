@@ -1,0 +1,106 @@
+/*Sección Title*/
+
+.title {
+    margin: 0 153px;
+    width: 80%;
+    color: var(--color-titulos);
+}
+
+.title__div {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+/*Título principal*/
+
+.title__bio {
+    font-size: 50px;
+    font-family: 700;
+    line-height: 61px;
+}
+
+/*Imagen de perfil*/
+
+.title__profile {
+    width: 368px;
+}
+
+.title__subsection {
+    font-size: 17px;
+    line-height: 23px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+/*Redes sociales*/
+
+.title__network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 500px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .title {
+        margin-left: 8vw;
+        width: 92vw;
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+        font-size: 14px;
+    }
+
+    .title__div {
+        align-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .title__container {
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+    }
+
+    .title__bio {
+        font-weight: 800;
+        font-size: 16px;
+        margin-right: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .title__profile {
+        align-self: flex-start;
+        height: 35%;
+        width: 35%;
+    }
+
+    .title__subsection {
+        font-size: 15px;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        width: 70%;
+    }
+
+    .title__network {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 90vw;
+    }
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

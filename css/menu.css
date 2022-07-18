@@ -1,0 +1,59 @@
+/*Sección Menu*/
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 0 153px;
+}
+
+/*Sección Title*/
+
+.menu__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-titulos);
+}
+
+/*Items del menú*/
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 750px;
+}
+
+/*Estilo menú mail*/
+
+.menu__list__item:nth-child(6) {
+    color: black;
+    font-weight: 800;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        height: 10vw;
+        margin-left: 6vw;
+        width: 90vw;
+    }
+
+    .menu__header {
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .menu__list {
+        display: none;
+        font-size: 16px;
+        width: 50vw;
+    }
+}

@@ -1,0 +1,103 @@
+/* Experiencia Académica*/
+
+.academic__title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: center;
+}
+
+.academic__courses__box {
+    width: 26.6rem;
+    margin: 0 1rem;
+}
+
+.academic__courses__list {
+    margin: 32px;
+    padding: 0;
+}
+
+.academic__courses__item__img,
+.academic__courses__item__title,
+.academic__courses__item__subtitle {
+    margin: 32px;
+    padding: 0;
+}
+
+.academic__courses__item__img {
+    background-color: var(--color-cajas);
+    padding: 8%;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .academic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        margin-left: 8vw;
+    }
+
+    .academic__title {
+        text-align: center;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        margin-left: 6vw;
+        width: 90vw;
+    }
+
+    .academic__courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 90vw;
+        margin-left: 8vw;
+    }
+
+    .academic__courses__box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: 25%;
+        margin-bottom: 6vw;
+    }
+
+    .academic__courses__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .academic__courses__item__img {
+        display: flex;
+        justify-content: space-around;
+        width: 190px;
+        height: 140px;
+        align-items: center;
+        margin: 0;
+    }
+
+    .academic__courses__item__title {
+        padding-top: 4%;
+        padding-bottom: 2%;
+        margin: 0;
+    }
+
+    .academic__courses__item__subtitle {
+        padding-top: 2%;
+        padding-bottom: 4%;
+        margin: 0;
+    }
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}
